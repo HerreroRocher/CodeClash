@@ -1,0 +1,12 @@
+my-project/
+├── client/         # Front-end code (React, Next.js, etc.)
+│   ├── src/        # React components, pages, styles
+│   ├── public/     # Static assets (images, fonts, etc.)
+│   ├── package.json
+│   ├── tailwind.config.js
+├── server/         # Back-end code (Node.js, Express, etc.)
+│   ├── src/        # API routes, database models, controllers
+│   ├── config/     # Server configuration files (DB, environment variables)
+│   ├── package.json
+├── .gitignore
+├── README.md
