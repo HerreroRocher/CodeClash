@@ -1,4 +1,4 @@
-import Logo from '@components/Logo';
+import Logo from "@components/Logo";
 
 export default function HowToPlay() {
 return (
@@ -25,7 +25,7 @@ return (
                     <strong>Solve the Problem:</strong> Use the built-in code editor to write your solution. You can test your code with provided test cases.
                 </li>
                 <li>
-                    <strong>Submit Your Solution:</strong> Once you're confident with your solution, submit it to see if it passes all test cases.
+                    <strong>Submit Your Solution:</strong> Once you&apos;re confident with your solution, submit it to see if it passes all test cases.
                 </li>
                 <li>
                     <strong>Climb the Leaderboard:</strong> Earn points for each challenge you solve and climb the leaderboard to become the top coder.

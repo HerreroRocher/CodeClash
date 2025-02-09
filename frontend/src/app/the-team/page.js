@@ -1,8 +1,11 @@
 import Image from "next/image";
+import Logo from "@components/Logo";
 
 export default function TheTeam() {
   return (
-    <div className="min-h-screen p-8 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+    <>
+    <Logo />
+    <div className="p-8 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <h1 className="text-4xl font-bold mb-8 text-center">Meet the Team</h1>
       <div className="max-w-3xl mx-auto space-y-12">
         <div className="flex flex-col sm:flex-row items-center gap-8">
@@ -69,5 +72,6 @@ export default function TheTeam() {
         </div>
       </div>
     </div>
+    </>
   );
 }
