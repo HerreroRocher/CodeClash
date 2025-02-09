@@ -16,7 +16,7 @@ export default function Home() {
           <li className="mb-2">
             Improve your coding skills by solving various challenges and climbing the leaderboard.
           </li>
-          
+
         </ol>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
@@ -35,7 +35,7 @@ export default function Home() {
         </div>
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-      <Link href="/how-to-play" className="flex items-center gap-2 hover:underline hover:underline-offset-4">
+        <Link href="/how-to-play" className="flex items-center gap-2 hover:underline hover:underline-offset-4">
           <Image
             aria-hidden
             src="/file.svg"
@@ -44,7 +44,7 @@ export default function Home() {
             height={16}
           />
           How to Play
-      </Link>
+        </Link>
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
           href="https://github.com/HerreroRocher/CodeClash/tree/main"
