@@ -12,6 +12,10 @@
 
 ## Pull Requests
 1. **Code Review**: Before merging any code into the `dev` branch, create a pull request and request a code review from at least one team member.
+1. **Linting**: Before creating a pull request, run ESLint in the `src` directory to ensure there are no warnings or errors.
+   ```sh
+   npx eslint .
+   ```
 2. **Unit Tests**: Ensure all new features and bug fixes are covered by unit tests. Run the tests and make sure they pass before creating a pull request.
 3. **Documentation**: Update relevant documentation (e.g., README, comments) to reflect any changes or new features.
 
